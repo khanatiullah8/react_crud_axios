@@ -1,0 +1,128 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+span { display: inline-block; }
+li { list-style: none; }
+
+a {
+  text-decoration: none;
+  transition: all .3s;
+}
+
+input[type] {
+  border: none;
+  outline: none; 
+}
+
+input[type="submit"] { cursor: pointer; }
+
+.section-title {
+  margin: 20px 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.wrapper {
+  max-width: 1366px;
+  width: 100%;
+  padding: 10px 3%;
+  margin: 0 auto;
+}
+
+/* ------------------------------ */
+
+.header .wrapper { background-color: #222; }
+
+.logo {
+  font-size: 26px;
+  text-align: center;
+}
+
+.logo a {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+/* form styling */
+
+.form {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: flex;
+  background-color: #222;
+  gap: 10px;
+}
+
+.form > * > * { width: 100%; }
+.input-group { width: 40%; }
+.input-control { width: 20%; }
+
+.form input {
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.input-control * {
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: all .3s;
+}
+
+.input-control *:hover { opacity: .7; }
+
+/* fetched items styling */
+
+.list-items {
+  border-radius: 5px;
+  display: flex;
+  overflow: hidden;
+  color: #fff;
+  flex-direction: column;
+}
+
+.list-items > * > * {
+  padding: 8px;
+  background-color: #222;
+  flex-basis: 36%;
+  word-break: break-word;
+}
+
+.list {
+  display: flex;
+  text-transform: capitalize;
+}
+
+.list-heading * { background-color: #555; }
+.id { flex-basis: 8%; }
+.update, .delete { flex-basis: 10%; }
+
+.delete-btn, .update-btn {
+  padding: 7px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  opacity: .5;
+  outline: none;
+  text-transform: capitalize;
+  transition: all .3s;
+}
+
+.delete-btn:hover, .update-btn:hover { opacity: 1; }
+.update-btn { background-color: #2b971d; }
+.delete-btn { background-color: #ff0000; }
+
+.error-msg {
+  margin: 20px 0;
+  color: #ff0000;
+  text-align: center;
+}
