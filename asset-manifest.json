@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react_crud_axios/static/css/main.1f8ad14a.css",
-    "main.js": "/react_crud_axios/static/js/main.c7b4466a.js",
+    "main.js": "/react_crud_axios/static/js/main.c9c35584.js",
     "index.html": "/react_crud_axios/index.html",
     "main.1f8ad14a.css.map": "/react_crud_axios/static/css/main.1f8ad14a.css.map",
-    "main.c7b4466a.js.map": "/react_crud_axios/static/js/main.c7b4466a.js.map"
+    "main.c9c35584.js.map": "/react_crud_axios/static/js/main.c9c35584.js.map"
   },
   "entrypoints": [
     "static/css/main.1f8ad14a.css",
-    "static/js/main.c7b4466a.js"
+    "static/js/main.c9c35584.js"
   ]
 }
