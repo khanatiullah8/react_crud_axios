@@ -81,7 +81,7 @@ const Read = () => {
   //   // ========== Axios interceptors : end ========== //
   //   // ************************************************ //  
 
-  const finalData = data.map((item) => {
+  const finalData = data?.length ? data.map((item) => {
     const {id, firstName, lastName} = item;
     return (
       <li className="item list" key={id}>
@@ -92,7 +92,7 @@ const Read = () => {
         <span className='delete'><button className='delete-btn' onClick={() => deleteData(id)}>delete</button></span>
       </li>
     );
-  })
+  }) : <div className='empty-list'>Empty List</div>
 
   return (
     <>
