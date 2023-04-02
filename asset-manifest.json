@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react_crud_axios/static/css/main.1f8ad14a.css",
+    "main.js": "/react_crud_axios/static/js/main.7677bb75.js",
+    "index.html": "/react_crud_axios/index.html",
+    "main.1f8ad14a.css.map": "/react_crud_axios/static/css/main.1f8ad14a.css.map",
+    "main.7677bb75.js.map": "/react_crud_axios/static/js/main.7677bb75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f8ad14a.css",
+    "static/js/main.7677bb75.js"
+  ]
+}
